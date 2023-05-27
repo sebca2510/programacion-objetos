@@ -1,0 +1,45 @@
+package ();
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class () {
+
+    public static void main(String[] args) {
+
+        Scanner leer = new Scanner(System.in);
+
+        double promedio;
+        double nota;
+        int canNotas;
+        double acumNotas = 0;
+
+        System.out.println("Dame la cantidad de notas: ");
+        canNotas = leer.nextInt();
+       
+        List<Double> listNotas = new ArrayList<>();
+    
+        for(int i =0; i<canNotas; i++){
+            System.out.println("dame la nota["+i+"]");
+            nota = read.nexDouble();
+            listNotas.add(nota);
+            acumNotas += nota; 
+            
+            
+        }
+        promedio=acumNotas/listNotas.size();
+        
+        for(Double j:listNotas){
+            System.out.println(j+"");
+        }
+        System.out.println("");
+        System.out.println("Promedio de notas: " +promedio);
+        
+        
+        
+        
+
+    }
+
+}
