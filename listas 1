@@ -1,0 +1,29 @@
+package ();
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class () {
+
+    
+    public static void main(String[] args) {
+    
+        List<String> listStudenst =new ArrayList<>();
+        listStudenst.add("Brayan cruz");
+        listStudenst.add("Felipe Salamanca");
+        listStudenst.add("Camila Gonzales");
+        listStudenst.add("katerin rojas");
+        //iteracion clasica
+        for(int i=0; i<listStudenst.size();i++){
+        
+            System.out.println(""+listStudenst.get(i));
+        //iteraiona abreviada    
+        }
+    for(String l:listStudenst){
+        System.out.println(l);
+        
+    }
+        
+    }
+}
