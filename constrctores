@@ -1,0 +1,19 @@
+package ();
+
+
+public class () {
+    
+    private String nombre;
+    private String apellido;
+    private double valorHoras;
+    private short cantHoras;
+    
+    public Empleados(){
+        this.nombre="";
+        this.apellido="";
+        this.valorHoras=0;
+        this.cantHoras=0;
+        
+    }
+    
+}
