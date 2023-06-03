@@ -1,7 +1,7 @@
-package ();
+package (name);
 
 
-public class () {
+public class (name) {
     
     private String nombre;
     private String apellido;
